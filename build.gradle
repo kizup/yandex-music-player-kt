@@ -47,7 +47,7 @@ dependencies {
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
 }
 
-mainClassName = "com.example.demo.app.MyApp"
+mainClassName = "ru.kizapp.ymplayer.app.MyApp"
 
 jar {
     manifest {

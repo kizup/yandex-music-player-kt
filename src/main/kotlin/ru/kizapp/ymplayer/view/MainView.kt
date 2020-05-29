@@ -1,6 +1,6 @@
-package com.example.demo.view
+package ru.kizapp.ymplayer.view
 
-import com.example.demo.app.Styles
+import ru.kizapp.ymplayer.app.Styles
 import tornadofx.*
 
 class MainView : View("Hello TornadoFX") {
