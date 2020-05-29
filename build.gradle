@@ -35,15 +35,13 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(":ym-api")
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     compile "no.tornado:tornadofx:$tornadofx_version"
 
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-javafx:$kotlin_coroutines_version"
-
-    compile "io.ktor:ktor-client-apache:$ktor_version"
-    compile "io.ktor:ktor-client-gson:$ktor_version"
 
     testCompile "org.junit.jupiter:junit-jupiter-api:$junit_version"
     testRuntime "org.junit.jupiter:junit-jupiter-engine:$junit_version"
